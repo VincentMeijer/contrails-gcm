@@ -1,5 +1,5 @@
 """
-Implementation of the potential contrail coverage parameterizations from
+Implementation of the potential contrail coverage parameterization from
 Burkhardt et al. (2008).
 """
 import numpy as np
@@ -114,6 +114,3 @@ def get_contrail_cirrus_coverage(RHi, RHi_ci=0.6, RHi_cc=0.4, RHi_sat=1.0):
     # Set B_cc_ci to 1 if RHi < RHi_star
     B_cc_ci[RHi > RHi_star] = 1.0
     return B_cc_ci
-    
-
-    
