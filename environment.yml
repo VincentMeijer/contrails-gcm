@@ -139,7 +139,7 @@ dependencies:
       - protobuf==4.25.3
       - pyasn1==0.6.0
       - pyasn1-modules==0.4.0
-      - pycontrails==0.1.dev1300
+      - pycontrails
       - python-dateutil==2.9.0.post0
       - pytz==2024.1
       - pyyaml==6.0.1
@@ -153,4 +153,4 @@ dependencies:
       - urllib3==2.2.1
       - xarray==2024.2.0
       - yarl==1.9.4
-prefix: /opt/anaconda3/envs/pycontrails
+prefix: /opt/anaconda3/envs/contrails-gcm
